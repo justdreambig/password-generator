@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url(fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Karla', sans-serif;
+  src: url(fonts/Karla-VariableFont_wght.ttf);
+
+}
+
+body{ 
+    background-color: #1C1C1C;
+
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #1F2937;   
+
+}
+
+h1 {
+    width: 359px;
+    height: 27;
+    position: relative;
+    top: 115px;
+    left: 52px;
+    inline-size: 290px;
+    text-shadow:  2px 2px black;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    
+}
+
+.generateA {
+    color:#FFFFFF;
+} 
+
+.randomPassword {
+    color: #4ADF86;
+}
+
+#header2 {
+    animation: fadeIn 10s;
+    color:#D5D4D8;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    width: 400px; 
+    height: 28px;
+    position: relative;
+    top: 150px;
+    left: 52px;
+    font-weight: lighter;
+
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+
+}
+
+button {
+    position: relative;
+    top: 190px;
+    left: 52px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-shadow:  1px 1px black;
+    color: #FFFFFF;  
+    background-color: #10B981;
+    width: 195px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+  
+}
+
+hr  { 
+    background-color: #2F3E53;
+    width: 446px;
+    height: 1px;
+    border: none;
+    position: relative;
+    top: 220px;
+               
+}
+
+#showPasswords {
+ display: flex;
+ justify-content: space-around;
+ 
+ position: relative;
+ top: 250px;
+ margin-left: 25px;
+ margin-right: 25px;
+
+}
+
+#showPasswordOne, #showPasswordTwo {
+    
+     background-color: #273549;
+     width: 211px;
+     height: 39px;
+     border: none;
+     border-radius: 6px;
+     font-size: 16px;
+     color: #4ADF86;
+     line-height: 40px;
+     text-align: center;
+    
+}  
+ 
+
